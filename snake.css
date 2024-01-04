@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid red;
+    background-color: darkolivegreen;
+}
+
+
+.food {
+    height: 4%;
+    width: 2%;
+    background-color: red;
+    border-radius: 50% ;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.snake{
+    height: 100%;
+    width: 5%;
+    background-color: goldenrod;
+}
+
+.snake-container{
+    height: 4%;
+    width: 30%;
+    border:1px solid red;
+}
+
+.snakeflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
